@@ -1,0 +1,14 @@
+.nav-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+.nav-style p{
+ margin: 15px;
+ border: none;
+ background-color:darkgray;
+ border-radius: 10px;
+ padding: 5px;
+ 
+}
