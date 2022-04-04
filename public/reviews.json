@@ -2,43 +2,43 @@
   {
       "id": "1",
       "name": "BEAR",
-      "price": 250,
+      "ratings": "5 star",
       "img": "images/man_1.jpg",
-      "reviews": "Absolutely zero regrets with the F7x. Wanted to get a few activities completed and waited until I had to charge it before posting this review. Once I saw the Fenix 7x Sapphire was announced, immediately purchased on the same day. Waited only 2 days before selling the 6x Sapphire on an online auction site because the new one checked all the boxes and fit my wrist better."
+      "reviews": "Wanted to get a few activities completed and waited until I had to charge it before posting this review. Once I saw the Fenix 7x Sapphire was announced, immediately purchased on the same day."
     },
   {
       "id": "2",
       "name": "MILO",
-      "price": 320,
+      "ratings": "4 star",
       "img": "images/man_2.jpg",
-      "reviews": "Perfect replacement for my Forunner 735XT (see photos for comparison). The saphire solar is only a few grams heavier and otherwise identical in size. I like doing triathlons and the extra metrics with the newer model watches are a welcome change for those of us using outdated tech. That being said the training status, body battery and stress scores are not very helpful."
+      "reviews": "Perfect replacement for my Forunner 735XT (see photos for comparison). The saphire solar is only a few grams heavier and otherwise identical in size."
     },
   {
       "id": "3",
       "name": "BENTLEY",
-      "price": 335,
+      "ratings": "5 star",
       "img": "images/man_3.jpg",
-      "reviews": "Absolutely zero regrets with the F7x. Wanted to get a few activities completed and waited until I had to charge it before posting this review. Once I saw the Fenix 7x Sapphire was announced, immediately purchased on the same day. Waited only 2 days before selling the 6x Sapphire on an online auction site because the new one checked all the boxes and fit my wrist better."
+      "reviews": "Wanted to get a few activities completed and waited until I had to charge it before posting this review. Once I saw the Fenix 7x Sapphire was announced, immediately purchased on the same day."
     },
   {
       "id": "4",
       "name": "OLLIE",
-      "price": 380,
+      "ratings": "2 star",
       "img": "images/man_4.jpg",
-      "reviews": "Absolutely zero regrets with the F7x. Wanted to get a few activities completed and waited until I had to charge it before posting this review. Once I saw the Fenix 7x Sapphire was announced, immediately purchased on the same day. Waited only 2 days before selling the 6x Sapphire on an online auction site because the new one checked all the boxes and fit my wrist better."
+      "reviews": "Absolutely zero regrets with the F7x. Once I saw the Fenix 7x Sapphire was announced, immediately purchased on the same day."
     },
   {
       "id": "5",
       "name": "BUDDY",
-      "price": 360,
+      "ratings": "4 star",
       "img": "images/man_5.jpg",
-      "reviews": "Awesome Watch. Upgraded from the Garmin Fenix 6 Titanium Sapphire at 47mm a few months ago, and got the Garmin Fenix 7S, Gold Titanium Sapphire Solar Watch. It is Fantastic. However, I do find the Fenix 7S a bit smaller than the normal size of the Fenix 7. The Fenix 7S is 42mm versus the Fenix 7 at 47mm. The Gold is very stylish and not to mention the amazing features."
+      "reviews": "Awesome Watch. Upgraded from the Garmin Fenix 6 Titanium Sapphire at 47mm a few months ago, and got the Garmin Fenix 7S, Gold Titanium Sapphire Solar Watch."
     },
   {
       "id": "6",
       "name": "ROCKY",
-      "price": 220,
+      "ratings": "3 star",
       "img": "images/man_6.jpg",
-      "reviews": "I had the Fenix 6 Sapphire Titanium watch previously, and in the middle of waiting for my Fenix 7, tried a few others like the FitBit and Forerunner. The Fenix 7 is Awesome. Expensive, yes but well worth the upgrade. So many features and very stylish to. A added bonus the sun recharges the battery with Solar addition. Not to be disappointed. I am soo Happy I bought this one - LoVe it for.many years to come. Mineral Blue DLC Titanium Sapphire Solar Garmin Fenix 7, 47 mm."
+      "reviews": "I had the Fenix 6 Sapphire Titanium watch previously, and in the middle of waiting for my Fenix 7, tried a few others like the FitBit and Forerunner. "
     }
 ]

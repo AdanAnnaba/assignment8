@@ -1,0 +1,26 @@
+.total-review{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    width: auto;
+    gap: 25px;
+    align-items: center;
+}
+.total-review img{
+    height: 250px;
+    width: 250px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.box{
+    display: grid;
+    align-items: center;
+    border: 1px solid gray;
+    height: 500px;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+}

@@ -4,7 +4,8 @@ import './Home.css';
 
 const Home = () => {
     
-    const [reviews,setReviews] = ReviewData()
+    const [reviews,setReviews] = ReviewData([]);
+    const data = reviews.slice(0,3);
 
     return (
         <div >
@@ -15,11 +16,18 @@ const Home = () => {
             </div>
             <div>
                 <img src={Watch} alt="" />
-                <small>IWC Schaffhausen</small>
+                <small>IWC Schaffhausen{reviews.img}</small>
             </div>
             </div>
             <div>
-                <h2>Customer Reviews ({reviews.slice(0,3).length})</h2>
+                <h2>Customer Reviews ({data.length})</h2>
+            </div>
+            <div>
+                {
+                    data.map(data=><div>
+                        <img src={data.img} alt="" /><p>Name: {data.name}</p>
+                    </div>)
+                }
             </div>
 
         </div>
