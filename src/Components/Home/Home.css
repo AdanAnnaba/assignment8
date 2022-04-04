@@ -1,0 +1,10 @@
+.home-page{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    align-items: center;
+    margin: 20px;
+}
+.home-page img{
+    height: 500px;
+    width: 400px;
+}
