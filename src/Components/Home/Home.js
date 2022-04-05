@@ -13,11 +13,11 @@ const Home = () => {
             <div className='home-page'>
             <div>
             <h1 className='text-6xl text-stone-900'>The World’s Best Luxury Watch Brands</h1>
-            <button className='mt-10 text-3xl border-2 p-3 bg-slate-600'>Live Demo</button>
+            <button className='class="bg-cyan-500 shadow-lg shadow-cyan-300/50 bg-sky-300 p-2 mb-4 rounded-xl mt-10 text-4xl p-3 border-l-4'>Live Demo</button>
             </div>
             <div>
                 <img src={Watch} alt="" />
-                <small>IWC Schaffhausen{reviews.img}</small>
+                <small>Wrist Watch{reviews.img}</small>
             </div>
             </div>
             <div>
@@ -25,15 +25,18 @@ const Home = () => {
             </div>
             <div className='three-reviews'>
                 {
-                    data.map(data=><div>
+                    data.map(data=><div className='three-reviews-card' >
                         <p>Name: {data.name}</p>
                         <img src={data.img} alt="" />
                         <p>Reviews: {data.reviews}</p>
+                        <div>
+                        <p>Ratings: {data.ratings}</p>
+                        </div>
                     </div>)
                 }
             </div>
             <div>
-            <button className='bg-sky-500 p-2 mb-4 rounded-xl'><Link to={'/Reviews'}>See All Reviews</Link></button>
+            <button className='class="bg-cyan-500 shadow-lg shadow-cyan-300/50 bg-sky-300 p-2 mb-4 rounded-xl'><Link to={'/Reviews'}>See All Reviews</Link></button>
             </div>
 
         </div>

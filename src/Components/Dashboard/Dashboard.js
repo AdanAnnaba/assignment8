@@ -13,7 +13,7 @@ const Dashboard = () => {
     return (
         <div className='chart-style'>
 
-           <div> 
+           <div className='bg-cyan-100'> 
            <h3>Bar chart</h3>
                <BarChart width={400} height={450}data={data}key={data.id}margin={{right:3,left:3}}>
                 <Bar stroke='#88d2ec' dataKey={'sell'}></Bar>
@@ -22,7 +22,7 @@ const Dashboard = () => {
                 <Tooltip></Tooltip>
                 
             </BarChart></div>
-           <div>
+           <div className='bg-indigo-300'>
                <h3>Line chart</h3>
                 <LineChart width={400} height={450}data={data} key={data.id}>
                 <Line stroke='#c39797' dataKey={'sell'}></Line>
