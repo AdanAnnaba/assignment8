@@ -13,6 +13,7 @@ const Home = () => {
             <div className='home-page'>
             <div>
             <h1 className='text-6xl text-stone-900'>The World’s Best Luxury Watch Brands</h1>
+            <p className='mt-10'>A man’s got two shots for jewelry: a wedding ring and a watch. The watch is a lot easier to get on and off than a wedding ring.</p>
             <button className='class="bg-cyan-500 shadow-lg shadow-cyan-300/50 bg-sky-300 p-2 mb-4 rounded-xl mt-10 text-4xl p-3 border-l-4'>Live Demo</button>
             </div>
             <div>
@@ -28,7 +29,7 @@ const Home = () => {
                     data.map(data=><div className='three-reviews-card' >
                         <p>Name: {data.name}</p>
                         <img src={data.img} alt="" />
-                        <p>Reviews: {data.reviews}</p>
+                        <p className='text-justify'>Reviews: {data.reviews}</p>
                         <div>
                         <p>Ratings: {data.ratings}</p>
                         </div>
