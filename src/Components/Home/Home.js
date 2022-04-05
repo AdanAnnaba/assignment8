@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             </div>
             <div>
-                <h2>Customer Reviews ({data.length})</h2>
+                <h2 className='text-3xl mb-8'>Customer Reviews ({data.length})</h2>
             </div>
             <div className='three-reviews'>
                 {
@@ -33,7 +33,7 @@ const Home = () => {
                 }
             </div>
             <div>
-            <p><Link to={'Reviews'}>HOME</Link></p>
+            <button className='bg-sky-500 p-2 mb-4 rounded-xl'><Link to={'/Reviews'}>See All Reviews</Link></button>
             </div>
 
         </div>

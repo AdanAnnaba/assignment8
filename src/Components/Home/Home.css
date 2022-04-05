@@ -6,16 +6,23 @@
 }
 .home-page img{
     height: 500px;
-    width: 400px;
+    width: auto;
     border: none;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .three-reviews{
-    height: 600px;
+    height: 500px;
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     margin: 20px;
+    padding: 20px;
+}
+.three-reviews img{
+    height: 200px;
+    width: auto;
+    border: none;
+    border-radius: 50%;
 }
