@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { LineChart, Line,XAxis,YAxis, Tooltip } from 'recharts';
+import { LineChart,BarChart, Line,XAxis,YAxis, Tooltip,Bar } from 'recharts';
+import './Dashboard.css';
 
 const Dashboard = () => {
     const [data, setData] = useState([])
@@ -8,14 +9,29 @@ const Dashboard = () => {
         .then(res=>res.json())
         .then(data=>setData(data))
     },[])
+
     return (
-        <div>
-            <LineChart width={400} height={450}data={data}>
-                <Line dataKey={'sell'}></Line>
-                <XAxis dataKey={'month'}></XAxis>
+        <div className='chart-style'>
+
+           <div> 
+           <h3>Bar chart</h3>
+               <BarChart width={400} height={450}data={data}key={data.id}margin={{right:3,left:3}}>
+                <Bar stroke='#88d2ec' dataKey={'sell'}></Bar>
+                <XAxis stroke={'green'} dataKey={'month'}></XAxis>
                 <YAxis dataKey={'investment'}></YAxis>
                 <Tooltip></Tooltip>
-            </LineChart>
+                
+            </BarChart></div>
+           <div>
+               <h3>Line chart</h3>
+                <LineChart width={400} height={450}data={data} key={data.id}>
+                <Line stroke='#c39797' dataKey={'sell'}></Line>
+                <Line stroke='#22773f' dataKey={'sell1'}></Line>
+                <XAxis stroke={'green'} dataKey={'month'}></XAxis>
+                <YAxis dataKey={'investment'}></YAxis>
+                <Tooltip></Tooltip>
+
+            </LineChart></div>
         </div>
     );
 };

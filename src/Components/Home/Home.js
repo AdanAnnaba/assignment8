@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Watch from '../../Image/watch.jpg'
 import ReviewData from '../Hook/Hook';
 import './Home.css';
@@ -30,6 +31,9 @@ const Home = () => {
                         <p>Reviews: {data.reviews}</p>
                     </div>)
                 }
+            </div>
+            <div>
+            <p><Link to={'Reviews'}>HOME</Link></p>
             </div>
 
         </div>
