@@ -12,7 +12,6 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .three-reviews{
-    border: 1px solid rgba(0, 0, 0, 0.24);
     height: 500px;
     width: auto;
     display: grid;
@@ -30,7 +29,7 @@
     padding: 20px;
 }
 .three-reviews-card{
-    border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
