@@ -9,14 +9,14 @@ const Home = () => {
     const data = reviews.slice(0,3);
 
     return (
-        <div >
+        <div>
             <div className='home-page'>
             <div>
             <h1 className='text-6xl text-stone-900'>The World’s Best Luxury Watch Brands</h1>
             <button className='class="bg-cyan-500 shadow-lg shadow-cyan-300/50 bg-sky-300 p-2 mb-4 rounded-xl mt-10 text-4xl p-3 border-l-4'>Live Demo</button>
             </div>
             <div>
-                <img src={Watch} alt="" />
+                <img src={Watch} alt="watch" />
                 <small>Wrist Watch{reviews.img}</small>
             </div>
             </div>
