@@ -22,10 +22,12 @@ const Home = () => {
             <div>
                 <h2>Customer Reviews ({data.length})</h2>
             </div>
-            <div>
+            <div className='three-reviews'>
                 {
                     data.map(data=><div>
-                        <img src={data.img} alt="" /><p>Name: {data.name}</p>
+                        <p>Name: {data.name}</p>
+                        <img src={data.img} alt="" />
+                        <p>Reviews: {data.reviews}</p>
                     </div>)
                 }
             </div>
