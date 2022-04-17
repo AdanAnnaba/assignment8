@@ -7,16 +7,13 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Reviews from './Components/Reviews/Reviews';
 import NotFound from './Components/NotFound/NotFound';
-
-
-
+import LoginForm from './LoginForm';
 
 function App() {
-
-  
-  return (
+    return (
     <div className="App">
       <Navbar></Navbar>
+      <LoginForm></LoginForm>
       <Routes>
         <Route path='/' element = {<Home></Home>}></Route>
         <Route path='/home' element = {<Home></Home>}></Route>

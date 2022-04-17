@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Watch from '../../Image/watch.jpg'
 import ReviewData from '../Hook/Hook';
@@ -6,10 +7,20 @@ import './Home.css';
 const Home = () => {
     
     const [reviews,setReviews] = ReviewData([]);
+    const [searchResult, setSearchResult] = useState([])
     const data = reviews.slice(0,3);
+
+    const handleSearchChange = event =>{
+        const searchText = event.target.value;
+        const match = reviews.filter(v=>v.name.includes(searchText))
+        setSearchResult(match);
+    }
 
     return (
         <div>
+            <div className='mt-5'>
+                    <input onChange={handleSearchChange} className='p-2 border-2 rounded-lg' type="text"placeholder='Search' />
+            </div>
             <div className='home-page'>
             <div>
             <h1 className='text-6xl text-stone-900'>The World’s Best Luxury Watch Brands</h1>
@@ -26,7 +37,7 @@ const Home = () => {
             </div>
             <div className='three-reviews'>
                 {
-                    data.map(data=><div className='three-reviews-card' >
+                    searchResult.map(data=><div className='three-reviews-card' >
                         <p>Name: {data.name}</p>
                         <img src={data.img} alt="" />
                         <p className='text-justify'>Reviews: {data.reviews}</p>
