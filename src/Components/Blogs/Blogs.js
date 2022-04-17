@@ -5,7 +5,7 @@ const Blogs = () => {
        <div>
             <div className='m-8'>
             <p className='bg-sky-500'>Question: What is context API.</p>
-            <p>Ans: The Context API can be used to share data with multiple components, without having to pass data through props manually. For example, some use cases the Context API is ideal for: theming, user language, authentication, etc.</p>
+            <p>Ans: The Context API can be used to share data with multiple components without having to pass data through props manually. For example, some use cases the Context API is ideal for: theming, user language, authentication, etc.</p>
         </div>
         <div>
             <p className='bg-sky-500'>Question: What is semantic tag.</p>
